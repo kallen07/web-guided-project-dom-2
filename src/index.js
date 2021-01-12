@@ -28,7 +28,6 @@ launchButton.addEventListener("click", function (event) {
 launchButton.addEventListener("click", function (event) {
   // we have absolute power of the DOM here
   modal.classList.remove("off");
-  debugger;
 });
 
 // 👉 TASK 4- Create a function to confirm the launch.
