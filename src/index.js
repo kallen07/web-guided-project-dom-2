@@ -46,7 +46,7 @@ launchButton.addEventListener("click", launch);
 
 confirmButton.addEventListener("click", function (event) {
   successMessage.classList.remove("off");
-  modal.classList.add("off");
+  closeModal();
 });
 
 // 👉 TASK 5- Create a function to cancel the launch.
