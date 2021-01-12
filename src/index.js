@@ -96,9 +96,9 @@ function openModal() {
   modal.classList.remove("off");
 }
 
-// function closeModal() {}
+function closeModal() {}
 
-// function killReports() {}
+function killReports() {}
 
 // 👉 TASK 9- [STRETCH] Using the mouseover event on 'document',
 // log to the console the X and Y coordinates
