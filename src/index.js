@@ -35,8 +35,7 @@ launchButton.addEventListener("click", function (event) {
 function launch(event) {
   //   modal.classList.remove("off");
   openModal();
-  successMessage.classList.add("off");
-  failureMessage.classList.add("off");
+  killReports();
 }
 launchButton.addEventListener("click", launch);
 
