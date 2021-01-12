@@ -81,12 +81,11 @@ document.addEventListener("keydown", escKey);
 // It should also console.log the CURRENT target 🧭 of the event.
 // Play with stopPropagation and stopImmediatePropagation.
 
-
 Array.from(document.all).forEach((elem) => {
-    elem.addEventListener('click', (event) {
-      console.log('target 🎯', event.target)
-    })
-})
+  elem.addEventListener("click", (event) => {
+    console.log("target 🎯", event.target);
+  });
+});
 
 // 👉 TASK 8- [STRETCH] Create helper functions to make the code
 // more readable in tasks 3, 4, 5, 6
