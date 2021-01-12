@@ -28,9 +28,11 @@ launchButton.addEventListener("click", function (event) {
 launchButton.addEventListener("click", function (event) {
   // we have absolute power of the DOM here
   modal.classList.remove("off");
-  successMessage.classList.remove("off");
-  failureMessage.classList.remove("off");
+  successMessage.classList.add("off");
+  failureMessage.classList.add("off");
 });
+
+// function launch(event) {}
 
 // 👉 TASK 4- Create a function to confirm the launch.
 // It should close the modal and display a success report.
