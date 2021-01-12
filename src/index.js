@@ -55,6 +55,7 @@ confirmButton.addEventListener("click", function (event) {
 
 cancelButton.addEventListener("click", function (event) {
   modal.classList.add("off");
+  failureMessage.classList.remove("off");
 });
 
 // 👉 TASK 6- Create a function that closes the modal if
