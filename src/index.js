@@ -4,6 +4,7 @@ console.log("project is up");
 
 // A- BUTTONS
 const launchButton = document.querySelector("#launchButton");
+console.log(launchButton);
 const confirmButton = document.querySelector("#confirmButton");
 const cancelButton = document.querySelector("#cancelButton");
 // B- MESSAGES
