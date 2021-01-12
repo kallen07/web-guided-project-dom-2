@@ -27,7 +27,7 @@ launchButton.addEventListener("click", function (event) {
 // Add it as an event listener for click events on the launch button.
 launchButton.addEventListener("click", function (event) {
   // we have absolute power of the DOM here
-  modal.classList.remove("offff");
+  modal.classList.remove("off");
   debugger;
 });
 
