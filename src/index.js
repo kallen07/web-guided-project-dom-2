@@ -4,14 +4,13 @@ console.log("project is up");
 
 // A- BUTTONS
 const launchButton = document.querySelector("#launchButton");
-console.log(launchButton);
 const confirmButton = document.querySelector("#confirmButton");
 const cancelButton = document.querySelector("#cancelButton");
 // B- MESSAGES
 const successMessage = document.querySelector(".success");
 const failureMessage = document.querySelector(".failure");
 // C- MODAL
-const modal = document.querySelector("modal");
+const modal = document.querySelector(".modal");
 
 debugger;
 // 👉 TASK 2- Demo handling click events on button#launchButton, using:
