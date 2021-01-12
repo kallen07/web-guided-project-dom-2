@@ -33,7 +33,8 @@ launchButton.addEventListener("click", function (event) {
 // });
 
 function launch(event) {
-  modal.classList.remove("off");
+  //   modal.classList.remove("off");
+  openModal();
   successMessage.classList.add("off");
   failureMessage.classList.add("off");
 }
@@ -63,7 +64,9 @@ confirmButton.addEventListener("click", function (event) {
 
 // 👉 TASK 8- [STRETCH] Create helper functions to make the code
 // more readable in tasks 3, 4, 5, 6
-function openModal() {}
+function openModal() {
+  modal.classList.remove("off");
+}
 
 function closeModal() {}
 
