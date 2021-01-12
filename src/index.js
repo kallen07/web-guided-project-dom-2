@@ -84,6 +84,7 @@ document.addEventListener("keydown", escKey);
 Array.from(document.all).forEach((elem) => {
   elem.addEventListener("click", (event) => {
     console.log("target 🎯", event.target);
+    console.log("🧭 Current target" event.currentTarget)
   });
 });
 
